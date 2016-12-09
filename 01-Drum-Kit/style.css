@@ -1,0 +1,42 @@
+html {
+  /* set background image to cover the full page */
+  background: url(images/stage-1177613_1920.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.keys {
+  margin: 0 auto; /* centers the element horizontally */
+  width: 800px; /* for it to work the width must not be auto */
+
+  /* add some space to the top and align in the center (dummy-temp)*/
+  padding-top: 100px;
+  padding-left: 0%;
+}
+
+.key {
+  margin-left: 10px; /* add some space between the elements*/
+  border: 3px solid gray;
+  float: left; /* so the DIVs are next to each other */
+  width: 70px;
+  height: 70px;
+  text-align: center;
+}
+
+kbd {
+  color: white;
+  font-size: 150%;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  display: block;
+  margin-top: 10px;
+}
+
+span {
+  color: #D5C150;
+  text-transform: uppercase;
+  display: block; /* display the SPAN text underneath the DIV letter */
+  font-size: 60%;
+  margin-top: 10px;
+}
